@@ -1,0 +1,14 @@
+ignore.txt
+#pas de fichier .a
+*.a
+#mais suivre lib.a malgre la regle precedente
+!lib.a
+#ignorer uniquement le fichier TODO à la racine du projet
+/TODO
+#ignorer tous les fichiers dans le repertoire build
+build/
+#ignorer doc/notes.txt, mais pas doc/server/arch.txt
+doc/*.txt
+#ignorer tous les fichiers .txt sous le répertoire doc/
+doc/**/*.txt
+
